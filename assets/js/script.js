@@ -22,7 +22,7 @@
 
 // today's date and time 
 var todayDate = date().format("LLLL");
-$("#currentDay").html(todayDate);
+$("#currentDay").text(todayDate);
 
 // When the save button is selected
 $(document).ready(function () {
