@@ -21,14 +21,14 @@
   // TODO: Add code to display the current date in the header of the page.
 
 // today's date and time 
-var todayDate = date().format("LLLL");
+var todayDate = dayjs().format("dddd, MMM DD, YYYY, h:mm A");
 $("#currentDay").text(todayDate);
 
 // When the save button is selected
 $(document).ready(function () {
   $(".saveBtn").on("click", function () {
-      var text = $(this).siblings(".description").val();
-      var time = $(this).parent().attr("id");
+       var text = $(this).siblings(".description").val();
+       var time = $(this).parent().attr("id");
   })
 
 
