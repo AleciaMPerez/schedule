@@ -22,3 +22,14 @@ $(function () {
   // TODO: Add code to display the current date in the header of the page.
 });
 
+// today's date and time 
+
+// When the save button is selected
+
+// Save to the local storage
+
+// pull from the local storage
+
+// Remove entry if needed
+
+// The time blocks are highlighted to indicate the past, present, future
