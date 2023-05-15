@@ -21,6 +21,7 @@
   // TODO: Add code to display the current date in the header of the page.
 
 // today's date and time 
+// HOW DO I MAKE THE TIME CONTINUOUS?
 var todayDate = dayjs().format("dddd, MMM DD, YYYY, h:mm A");
 $("#currentDay").text(todayDate);
 
@@ -29,11 +30,13 @@ $(document).ready(function () {
   $(".saveBtn").on("click", function () {
        var text = $(this).siblings(".description").val();
        var time = $(this).parent().attr("id");
-  })
-
+  console.log(text)
+  //TIME IS NOT CONSOLE.LOGGING
+  console.log(time)
 
 // Save to the local storage
 localStorage.setItem(text, time);
+})
 })
 
 // pull from the local storage
