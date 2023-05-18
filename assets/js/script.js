@@ -11,12 +11,25 @@ $(document).ready(function () {
     console.log(time);
 
     // Save to the local storage
-    localStorage.setItem(text, time);
+    localStorage.setItem(time, text);
   });
 });
 
-// pull from the local storage
-localStorage.getItem(text, time)
+// Pulls the local storage Item
+var result = localStorage.getItem("hour-9")
+//stores the HTML element witht he ID Hour-9
+var hour9 = document.querySelector("#hour-9")
+//selects the description class in the HTML and saves it to a variable
+var hour9description = hour9.querySelector(".description")
+//sets text of the description as the result.
+hour9description.textContent = result
+
+
+
+
+
+
+
 
 
 // The time blocks are highlighted to indicate the past, present, future
