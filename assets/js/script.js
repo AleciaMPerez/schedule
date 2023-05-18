@@ -15,6 +15,8 @@ $(document).ready(function () {
   });
 });
 
+//Pulling from the local storage
+
 // Pulls the local storage Item
 var result = localStorage.getItem("hour-9")
 //stores the HTML element witht he ID Hour-9
