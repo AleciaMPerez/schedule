@@ -16,6 +16,8 @@ $(document).ready(function () {
 });
 
 // pull from the local storage
+localStorage.getItem(text, time)
+
 
 // The time blocks are highlighted to indicate the past, present, future
 // for each time-block class, run the following function
