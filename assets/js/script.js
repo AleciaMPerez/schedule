@@ -83,7 +83,7 @@ $(".time-block").each(function () {
   if (time < currentHour) {
     $(this).addClass("past");
     $(this).removeClass("present");
-    $(time).removeClass("future");
+    $(this).removeClass("future");
     // if time is equal to current time, it is present
   } else if (time === currentHour) {
     $(this).removeClass("past");
