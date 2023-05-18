@@ -19,7 +19,7 @@ $(document).ready(function () {
 
 // Pulls the local storage Item
 var result = localStorage.getItem("hour-9")
-//stores the HTML element witht he ID Hour-9
+//stores the HTML element with the ID Hour-9
 var hour9 = document.querySelector("#hour-9")
 //selects the description class in the HTML and saves it to a variable
 var hour9description = hour9.querySelector(".description")
