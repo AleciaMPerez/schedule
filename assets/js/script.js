@@ -25,9 +25,45 @@ var hour9description = hour9.querySelector(".description")
 hour9description.textContent = result
 
 
+var result = localStorage.getItem("hour-10")
+var hour10 = document.querySelector("#hour-10")
+var hour10description = hour10.querySelector(".description")
+hour10description.textContent = result
 
+var result = localStorage.getItem("hour-11")
+var hour11 = document.querySelector("#hour-11")
+var hour11description = hour11.querySelector(".description")
+hour11description.textContent = result
 
+var result = localStorage.getItem("hour-12")
+var hour12 = document.querySelector("#hour-12")
+var hour12description = hour12.querySelector(".description")
+hour12description.textContent = result
 
+var result = localStorage.getItem("hour-13")
+var hour13 = document.querySelector("#hour-13")
+var hour13description = hour13.querySelector(".description")
+hour13description.textContent = result
+
+var result = localStorage.getItem("hour-14")
+var hour14 = document.querySelector("#hour-14")
+var hour14description = hour14.querySelector(".description")
+hour14description.textContent = result
+
+var result = localStorage.getItem("hour-15")
+var hour15 = document.querySelector("#hour-15")
+var hour15description = hour15.querySelector(".description")
+hour15description.textContent = result
+
+var result = localStorage.getItem("hour-16")
+var hour16 = document.querySelector("#hour-16")
+var hour16description = hour16.querySelector(".description")
+hour16description.textContent = result
+
+var result = localStorage.getItem("hour-17")
+var hour17 = document.querySelector("#hour-17")
+var hour17description = hour17.querySelector(".description")
+hour17description.textContent = result
 
 
 
